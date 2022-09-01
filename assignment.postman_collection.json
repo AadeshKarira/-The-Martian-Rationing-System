@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "189cf38c-8b64-424d-a322-fa5690031468",
+		"name": "assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15205988"
+	},
+	"item": [
+		{
+			"name": "ration_water",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"packet_id\": \"W4\",\n    \"packet_type\": \"water\",\n    \"quantity_in_litres\": 3\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{admin}}",
+					"host": [
+						"{{admin}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ration_food",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"packet_id\": \"F7\",\n    \"packet_type\": \"Food\",\n    \"packet_content\": \"Biscuit\",\n    \"calories\": 500,\n    \"expiry_date\": \"2022/09/22\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{admin}}",
+					"host": [
+						"{{admin}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ration",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{admin}}",
+					"host": [
+						"{{admin}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sort_ration",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{admin}}/sort_ration?today=2019/05/05",
+					"host": [
+						"{{admin}}"
+					],
+					"path": [
+						"sort_ration"
+					],
+					"query": [
+						{
+							"key": "today",
+							"value": "2019/05/05"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_ration",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{admin}}/?_id=630f4e146dfa4b388fb6a07b",
+					"host": [
+						"{{admin}}"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "_id",
+							"value": "630f4e146dfa4b388fb6a07b"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

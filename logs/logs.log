@@ -1,0 +1,371 @@
+19-07-2022 13:1:41	Error	ReferenceError: banners is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:135:45
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+19-07-2022 15:54:26	Error	ReferenceError: ObjectId is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:146:72
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+19-07-2022 19:45:39	Error	ReferenceError: _id is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:51:46
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+20-07-2022 11:36:55	Error	TypeError: user_services.get_address is not a function
+    at E:\Development\Pawspace\user\src\users\users.js:111:49
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+21-07-2022 12:4:9	Error	ReferenceError: banners is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:130:61
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+21-07-2022 12:36:52	Error	TypeError: dog_weight.get is not a function
+    at E:\Development\Pawspace\user\src\pets\pets.js:78:38
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+21-07-2022 12:37:36	Error	TypeError: dog_weight.get is not a function
+    at E:\Development\Pawspace\user\src\pets\pets.js:78:38
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+21-07-2022 16:19:51	Error	TypeError: user_services.find is not a function
+    at E:\Development\Pawspace\user\src\users\users.js:18:41
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+21-07-2022 16:33:8	Error	TypeError: user_services.find is not a function
+    at E:\Development\Pawspace\user\src\users\users.js:43:45
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+21-07-2022 16:34:55	Error	TypeError: user_services.find is not a function
+    at E:\Development\Pawspace\user\src\users\users.js:66:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+21-07-2022 16:41:22	Error	ReferenceError: refferal_services is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:73:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+21-07-2022 17:16:52	Error	ReferenceError: address_services is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:106:29
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+22-07-2022 12:46:20	Error	TypeError: dog_weight.get is not a function
+    at E:\Development\Pawspace\user\src\pets\pets.js:98:38
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+22-07-2022 21:25:6	Error	ReferenceError: get_id is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:56:67
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+22-07-2022 21:25:26	Error	ReferenceError: get_id is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:56:67
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+22-07-2022 21:31:12	Error	TypeError: Cannot read properties of undefined (reading '_id')
+    at E:\Development\Pawspace\user\src\users\users.js:56:84
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+23-07-2022 12:11:34	Error	ReferenceError: pet_data is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:113:102
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+27-07-2022 12:59:53	Error	TypeError: pets.create is not a function
+    at E:\Development\Pawspace\user\src\pets\pets.js:38:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+27-07-2022 13:5:27	Error	TypeError: address.get is not a function
+    at E:\Development\Pawspace\user\src\users\users.js:134:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+28-07-2022 15:54:26	Error	ReferenceError: body is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:132:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+28-07-2022 17:44:35	Error	TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at E:\Development\Pawspace\user\src\pets\pets.js:138:33
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+28-07-2022 17:45:21	Error	TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at E:\Development\Pawspace\user\src\pets\pets.js:138:33
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+28-07-2022 17:46:51	Error	TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at E:\Development\Pawspace\user\src\pets\pets.js:138:33
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+28-07-2022 17:48:37	Error	TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at E:\Development\Pawspace\user\src\pets\pets.js:138:33
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+28-07-2022 17:50:32	Error	TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at E:\Development\Pawspace\user\src\pets\pets.js:138:33
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+02-08-2022 11:28:48	Error	MongooseError: Query was already executed: users.updateOne({ _id: new ObjectId("62c936df220b9b9f680a47a...
+    at model.Query._wrappedThunk [as _updateOne] (E:\Development\Pawspace\user\node_modules\mongoose\lib\helpers\query\wrapThunk.js:21:19)
+    at E:\Development\Pawspace\user\node_modules\kareem\index.js:426:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+02-08-2022 12:9:21	Error	ReferenceError: get_address is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:230:9
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+02-08-2022 12:10:27	Error	ReferenceError: get_address is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:230:9
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+02-08-2022 12:11:16	Error	ReferenceError: get_address is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:230:9
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:47:12)
+02-08-2022 12:19:38	Error	ReferenceError: e is not defined
+    at E:\Development\Pawspace\user\src\users\users.js:233:61
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+08-08-2022 16:13:56	Error	ReferenceError: Cannot access 'address' before initialization
+    at E:\Development\Pawspace\user\src\users\users.js:213:23
+08-08-2022 16:15:22	Error	ReferenceError: Cannot access 'address' before initialization
+    at E:\Development\Pawspace\user\src\users\users.js:213:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+08-08-2022 16:16:52	Error	ReferenceError: Cannot access 'address' before initialization
+    at E:\Development\Pawspace\user\src\users\users.js:213:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+09-08-2022 15:46:34	Error	ReferenceError: s3 is not defined
+    at deleteFolder (E:\Development\Pawspace\user\services\s3.js:59:5)
+    at E:\Development\Pawspace\user\src\users\users.js:213:9
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\Development\Pawspace\user\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\Development\Pawspace\user\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\Development\Pawspace\user\node_modules\express\lib\router\index.js:175:3)
+10-08-2022 12:24:10	Error	TypeError: Cannot read properties of undefined (reading 'dob')
+    at E:\Development\Pawspace\user\src\pets\pets.js:89:53
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10-08-2022 12:25:12	Error	TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at E:\Development\Pawspace\user\src\pets\pets.js:91:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10-08-2022 12:46:52	Error	ReferenceError: studentsArray is not defined
+    at E:\Development\Pawspace\user\src\pets\pets.js:92:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10-08-2022 12:47:31	Error	TypeError: get.forEach is not a function
+    at E:\Development\Pawspace\user\src\pets\pets.js:92:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10-08-2022 12:48:9	Error	ReferenceError: counter is not defined
+    at E:\Development\Pawspace\user\src\pets\pets.js:96:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10-08-2022 12:48:40	Error	ReferenceError: counter is not defined
+    at E:\Development\Pawspace\user\src\pets\pets.js:96:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10-08-2022 12:59:4	Error	TypeError: get.toJSON is not a function
+    at E:\Development\Pawspace\user\src\pets\pets.js:73:38
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+11-08-2022 10:51:21	Error	BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+    at new BSONTypeError (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/user/node_modules/bson/lib/error.js:41:28)
+    at new ObjectId (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/user/node_modules/bson/lib/objectid.js:67:23)
+    at ObjectId (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/user/node_modules/bson/lib/objectid.js:26:20)
+    at /home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/user/src/pets/pets.js:57:46
+    at Layer.handle [as handle_request] (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/user/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/user/node_modules/express/lib/router/route.js:144:13)
+    at isValidToken (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/user/middlewares/auth.js:19:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+11-08-2022 11:17:27	Error	TypeError: Cannot read property 'dob' of undefined
+    at /home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/user/src/pets/pets.js:70:53
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+18-08-2022 12:46:37	Error	TypeError: leaves.insertOne is not a function
+    at /home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/src/leaves/leaves.js:12:35
+    at Layer.handle [as handle_request] (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/node_modules/express/lib/router/route.js:144:13)
+    at isValidToken (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/middlewares/auth.js:19:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+18-08-2022 12:47:30	Error	TypeError: leaves.insertOne is not a function
+    at /home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/src/leaves/leaves.js:12:35
+    at Layer.handle [as handle_request] (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/node_modules/express/lib/router/route.js:144:13)
+    at isValidToken (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/middlewares/auth.js:19:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+18-08-2022 13:5:48	Error	TypeError: leaves.find is not a function
+    at /home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/src/leaves/leaves.js:32:32
+    at Layer.handle [as handle_request] (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/node_modules/express/lib/router/route.js:144:13)
+    at isValidToken (/home/reapmind/Desktop/development/Development/pawspace 25-07-2022 latest/sitter/middlewares/auth.js:19:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+26-08-2022 18:39:55	Error	TypeError: ration.insertOne is not a function
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:11:35
+    at Layer.handle [as handle_request] (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/index.js:47:12)
+26-08-2022 18:48:10	Error	TypeError: ration.find is not a function
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:30:32
+    at Layer.handle [as handle_request] (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/reapmind/Desktop/development/Interview_assignment/backend/node_modules/express/lib/router/index.js:47:12)
+26-08-2022 19:59:39	Error	TypeError: get.length is not a function
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:98:29
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+28-08-2022 1:21:26	Error	ReferenceError: findAllSubsets is not defined
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:150:23
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+28-08-2022 1:30:30	Error	ReferenceError: Cannot access 'endOfDay' before initialization
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:177:50
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 16:23:2	Error	ReferenceError: expiry is not defined
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:144:17
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 16:47:6	Error	TypeError: Cannot read property 'expiry_date' of undefined
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:144:37
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 16:52:21	Error	ReferenceError: calories is not defined
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:188:21
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 16:54:4	Error	ReferenceError: calories is not defined
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:188:21
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 17:19:3	Error	TypeError: today.diff is not a function
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:209:29
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 17:19:30	Error	TypeError: today.diff is not a function
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:209:29
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 17:20:26	Error	TypeError: today.diff is not a function
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:209:29
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 17:21:40	Error	TypeError: today.diff is not a function
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:209:29
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 17:22:6	Error	TypeError: today.diff is not a function
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:209:29
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 17:22:52	Error	TypeError: today.diff is not a function
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:209:29
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 17:24:21	Error	TypeError: today.diff is not a function
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:209:29
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 17:40:49	Error	TypeError: Cannot read property 'expiry_date' of undefined
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:146:42
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 17:42:7	Error	TypeError: Cannot read property 'expiry_date' of undefined
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:145:37
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+31-08-2022 17:44:46	Error	TypeError: Cannot read property 'expiry_date' of undefined
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:145:37
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
