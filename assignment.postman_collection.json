@@ -36,7 +36,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"packet_id\": \"F7\",\n    \"packet_type\": \"Food\",\n    \"packet_content\": \"Biscuit\",\n    \"calories\": 500,\n    \"expiry_date\": \"2022/09/22\"\n}",
+					"raw": "{\n    \"packet_id\": \"F8\",\n    \"packet_type\": \"Food\",\n    \"packet_content\": \"Biscuit\",\n    \"calories\": 500,\n    \"expiry_date\": \"2022-09-22\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -72,7 +72,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{admin}}/sort_ration?today=2019/05/05",
+					"raw": "{{admin}}/sort_ration?today=2019-05-05",
 					"host": [
 						"{{admin}}"
 					],
@@ -82,7 +82,7 @@
 					"query": [
 						{
 							"key": "today",
-							"value": "2019/05/05"
+							"value": "2019-05-05"
 						}
 					]
 				}

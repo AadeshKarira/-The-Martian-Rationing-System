@@ -84,8 +84,8 @@ router.get('/sort_ration', async(req, res, next) => {
             };
             return res;
          };
-        let consume =[0,0,0,0,0,0,0];
-        let consumeWater = [0,0,0,0];
+        let consume =Array(sortedRations_food.length).fill(0);
+        let consumeWater = Array(sortedRations_water.length).fill(0);
         var today=req.query.today;
         var start=req.query.today;
 
@@ -93,12 +93,14 @@ router.get('/sort_ration', async(req, res, next) => {
             // console.log("endofday_today",today)
 
             var sum=0;
+            //calculating total calories from all the food remaining
             for(let i=0;i<consume.length; i++){
                 if(consume[i]==0){
-                    sum+=sortedRations_food[i].calories;
+                    sum+=sortedRations_food[i].calories; 
                 }
             }
             let rwater=0;
+            //calculating total water from all the water remaining
             for(let i=0; i<sortedRations_water.length; i++){
                 if(!sortedRations_water[i].consumedOn){
                     if(sortedRations_water[i].quantity_in_litres == 1){
@@ -142,8 +144,9 @@ router.get('/sort_ration', async(req, res, next) => {
         }
 
         mainWhile:
-        while(true){
-            var totalCalories= 0;
+        while(true){    
+            var totalCalories= 0;//total calories consumed in a day
+            //check and consume if any package expires on the same day
             for(let i=0; i<consume.length; i++){
                 if(sortedRations_food[i].expiry_date==today && consume[i]!=1){
                     consume[i]=1;
@@ -152,14 +155,15 @@ router.get('/sort_ration', async(req, res, next) => {
                 }
             }
             // console.log("today",today,"totalCal",totalCalories)
-
-            if(totalCalories>2500){
+            //check if total calories consumed are more than 2499
+            if(totalCalories>=2500){
+                //check if water consumed is more than or equal to 2 litres
                 let todaysWater1=consumedWater(today);
     
                 if(todaysWater1<2){
                     break mainWhile;
                 }
-                today=moment(today).add(1, 'days').format("YYYY/MM/DD");
+                today=moment(today).add(1, 'days').format("YYYY-MM-DD");
                 let end = endOfDay();
                 if(end){
                     break mainWhile;
@@ -216,8 +220,9 @@ router.get('/sort_ration', async(req, res, next) => {
             }
             
             // console.log("sortedRations_water",sortedRations_water)
-            today=moment(today).add(1, 'days').format("YYYY/MM/DD");
+            today=moment(today).add(1, 'days').format("YYYY-MM-DD");
             // console.log("today",today,"endOfDay",endOfDay())
+            //check today is the last day of survival
             if(endOfDay()){
                 break mainWhile;
             }else{
@@ -227,10 +232,22 @@ router.get('/sort_ration', async(req, res, next) => {
         
         var totalDays=moment(today).diff(start, 'days');
         //another function
-        
-        
+        //sorting the rations based on consumed date
+        var schedule =sortedRations_food.concat(sortedRations_water)
+        for(let i=0; i<schedule.length; i++){
+            if(schedule[i].consumedOn){
+                
+            }else{
+                delete schedule[i]
+            }
+        }
+        hash = schedule.reduce((p,c) => (p[c.consumedOn] ? p[c.consumedOn].push(c) : p[c.consumedOn] = [c],p) ,{}),
+        schedule = Object.keys(hash).map(k => ({consumedOn: k, packet_details: hash[k]}));
+        schedule.sort((a, b) => {
+            return a.consumedOn - b.consumedOn;
+        });
         //  console.log(totalDays)
-        res.status(200).send({status: true, statusCode: 200, data:{totalDays,sortedRations_food,sortedRations_water}})
+        res.status(200).send({status: true, statusCode: 200, data:{totalDays,schedule}})
     }        //  console.log(totalDays)
     catch(err)
     {
