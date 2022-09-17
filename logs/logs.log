@@ -387,3 +387,6 @@
 14-09-2022 0:4:12	Error	ReferenceError: groupBy is not defined
     at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:237:9
     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+17-09-2022 14:11:16	Error	ReferenceError: get_water is not defined
+    at /home/reapmind/Desktop/development/Interview_assignment/backend/src/ration/ration.js:33:68
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)

@@ -28,8 +28,9 @@ router.post('/', async(req, res, next) => {
 router.get('/', async(req, res, next) => {
     try 
     {
-        let get = await ration.sort_ration_water();
-        res.status(200).send({status: true, statusCode: 200, data:get})
+        let water = await ration.sort_ration_water();
+        let food = await ration.sort_ration_food();
+        res.status(200).send({status: true, statusCode: 200, data:{water,food}})
     }
     catch(err)
     {
